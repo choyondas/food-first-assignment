@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    color: orange;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(253, 98, 60), orange);
+    border-radius: 20px;
+    padding: 10px 18px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 20px rgb(243, 220, 178);
+}
+
+h1 {
+    color: rgb(66, 65, 65);
+}
+
+section {
+    display: flex;
+    margin: 40px;
+    padding: 10px;
+    width: auto;
+    height: 300px;
+}
+
+.intro_div {
+    width: 100%;
+}
+
+img {
+    width: 90%;
+}
