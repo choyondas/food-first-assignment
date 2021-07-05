@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mukta', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -19,20 +19,23 @@ span {
 
 h1 {
     color: rgb(66, 65, 65);
+    font-size: 35px;
+    font-weight: bold;
 }
 
 section {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .intro_div {
     width: 50%;
-    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .intro_div img {
-    width: 50%;
+    width: 60%;
+    margin-left: 20%;
 }
 
 #background {
@@ -41,9 +44,35 @@ section {
 }
 
 #doc {
-    margin-top: 5%;
+    margin: 10% 20%;
 }
 
 #model {
-    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.recipy {
+    text-align: center;
+    margin: 0px 400px;
+}
+
+.item {
+    display: flex;
+}
+
+.food {
+    width: 33%;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 30px rgb(185, 182, 182);
+}
+
+.food img {
+    width: 100%;
+}
+
+.item {
+    margin: 30px;
 }
