@@ -52,6 +52,11 @@ section {
     margin-right: 20%;
 }
 
+#model2 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
 .recipy {
     text-align: center;
     margin: 0px 400px;
@@ -76,4 +81,16 @@ section {
 
 .item {
     margin: 30px;
+}
+
+.followers {
+    border-radius: 20px;
+    box-shadow: 4px 5px 30px gray;
+    margin: 4% 6%;
+}
+
+.like {
+    text-align: center;
+    width: 33%;
+    margin: 0 10%;
 }
